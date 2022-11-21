@@ -1,0 +1,64 @@
+.containerNavBar{
+    position: absolute;
+    width: 100%;
+    height: 105px;
+    left: 0px;
+    top: 0px;    
+    background: linear-gradient(91.25deg, #111111 -11.14%, #FFB800 112.27%);
+    display: grid;
+    grid-template-columns: 10% auto auto auto auto 9%;
+    column-gap: 25px;
+}
+
+
+.buttonNavBar{
+    width: 171px;;
+    height: 49px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #FFFFFF;
+    border-radius: 15px;
+    border-color: transparent;
+    margin-top: 25px;
+    transition: background-color 0.5s ease-out;
+}
+
+.buttonNavBar:hover{
+    background-color: #FFD657;
+    transition: 0.5s;
+    border-width: 1px;
+    border-color: #111111;
+    font-size: 14px;
+}
+
+.buttonNavBar:hover::after{
+    background-color: red;
+    transition: 0.5s;
+    border: #111111;
+}
+
+
+
+.icons{
+    width: 100%;
+    height: 80%;
+    transition: all 0.5s ease-out;
+}
+
+.icons:hover{
+    width: 105%;
+    height: 85%;
+    transition: 0.5s;
+}
+
+.containerIcons{
+    width: 90px;
+    height: 90px;
+    background-color: transparent;
+    border: none;
+}
+
+
+
+@media  screen and (max-width: 600px)  {
+    
+}
