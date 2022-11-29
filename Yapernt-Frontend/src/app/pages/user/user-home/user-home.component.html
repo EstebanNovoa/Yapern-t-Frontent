@@ -1,0 +1,28 @@
+<div>
+    <app-nav-bar-user></app-nav-bar-user>
+        <div class="containerMessageUserHome" >
+            <div class="containerMessageUserHomeContent" >
+                <button class="imgContainer"><img src={{profileIconUrl}} class="icons"></button>
+                <h3>Perfil</h3>
+            </div>
+            <div style="margin-top: 160px; margin-left: -40px; ">
+                <h1>Bienvenido<br> a Yaperen´t</h1>
+            </div>
+            <div class="containerGreeticon">
+                <img src={{greetIconUrl}} class="icons"> <br><br><br>
+                <h2 style="font-family: Inter; ">
+                    Estas en la seccion principal <br>
+                    Aqui encontraras las ultimas publicaciones que se han realizado
+                </h2>
+            </div>
+        </div>
+        <div class="containerPost">
+            <div class="searchBarContainer" ><input class="searchBar" (click)='onClickSearch()' placeholder="Búsqueda por descripción" id="a"></div>
+            <app-post-container></app-post-container>
+            <app-post-container></app-post-container>
+            <app-post-container></app-post-container>
+            <app-post-container></app-post-container>
+            <app-post-container></app-post-container>
+            <app-post-container></app-post-container>
+        </div>
+</div>
