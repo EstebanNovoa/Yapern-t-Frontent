@@ -12,4 +12,8 @@ export class PostContainerComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  headerDescription = ""
+
+  
+
 }
