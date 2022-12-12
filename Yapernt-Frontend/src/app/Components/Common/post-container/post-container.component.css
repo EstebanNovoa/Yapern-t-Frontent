@@ -1,0 +1,25 @@
+.postContainer{
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    height: 257px;
+    left: 385px;
+    top: 207px;    
+    background: #F5F5F5;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+h1{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Inter';
+}
+h2{
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Inter';
+    margin-top: -2px;
+}
+
