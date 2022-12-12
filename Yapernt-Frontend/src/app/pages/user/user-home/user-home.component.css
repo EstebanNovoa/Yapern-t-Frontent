@@ -1,0 +1,98 @@
+
+.containerMessageUserHome{
+    position: fixed;
+    height: 100%;
+    width: 35%;
+    margin-top: 100px;
+    float: left;
+}
+
+.containerPost{
+    height: 100%;
+    width: 60%;
+    margin-top: 94px;
+    float: right;
+    margin-right: -10px;
+    background: linear-gradient(292.65deg, #F8C84C -3.92%, #343434 107.84%);
+}
+
+
+.containerMessageUserHomeContent{
+    position: fixed;
+    width: 20%;
+    height: 50%;
+    padding-top: 20px;
+}
+
+
+.imgContainer{
+    background-color: transparent;
+    border: none;
+    position: fixed;
+}
+
+
+
+.icons{
+    width: 80px;
+    height: 80px;
+    transition: all 0.5s ease-out;
+}
+
+
+
+.icons:hover{
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+
+
+h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    float: right;
+    width: 50%;
+    transition: all 0.5s ease-out;
+}
+
+h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 200;
+    justify-content: baseline;
+}
+
+.containerGreeticon{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.searchBarContainer{
+    width: 40%;
+    height: 40px;
+    background: transparent;
+    border-radius: 12px;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    margin-top: 30px;
+}
+.searchBar{
+    width: 80%;
+    height: 100%;
+    background: white;
+    border-radius: 12px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}

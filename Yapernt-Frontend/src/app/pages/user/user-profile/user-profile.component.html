@@ -1,0 +1,42 @@
+<app-nav-bar-user></app-nav-bar-user>
+
+<div class="background-panel">
+
+    <div class="form-panel">
+        <div class="form-title">
+            <img width="50" src="./assets/resources/profileIcon.png" alt="">
+            <h1>User Name</h1>
+        </div>
+        <div class="form-user-data">
+            <div class="feature form-name">
+                <label >Nombre: </label>
+                <label class="form-info">{{this.UserName}}</label>
+                <button (click)="openModalName()" class="btn-change-name" >Cambiar Nombre</button>
+            </div>
+            <div class="feature form-email">
+                <label >Email: </label>
+                <label class="form-info">{{this.UserEmail}}</label>
+                <button (click)="openModalEmail()" class="btn-change-email" >Cambiar Email</button>
+            </div>
+            <div class="feature form_pass">
+                <button (click)="openModalPass()" class="btn-change-password" >Cambiar Contraseña</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="" *ngIf="modalSwitch == true">
+    <div class="modal-body">
+        <div class="modal-panel">
+            <h2>Editar Perfil de Usuario</h2>
+            <form class="modal-form" (ngSubmit)="sendForm()">
+                <label>{{this.textEdit}}</label>
+                <input class="" type="text" formControlName="oldPass">
+                <label>Contraseña:</label>
+                <input class="" type="password" formControlName="oldPass">
+                <button type="ngSubmit">Aceptar</button>
+                <button class="btn-modal-exit" (click)="closeModal()">Cancelar</button>
+            </form>
+        </div>
+    </div>
+</div>
