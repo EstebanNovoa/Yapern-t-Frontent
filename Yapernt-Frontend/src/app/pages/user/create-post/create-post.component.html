@@ -1,0 +1,62 @@
+<div>
+  <app-nav-bar-user></app-nav-bar-user>
+  <div class="containerMessageCreatePost" >
+    <div class="containerMessageCreatePostContent" >
+        <button class="imgContainer" routerLink="/perfil"><img src={{profileIconUrl}} class="icons"></button>
+        <h3>Perfil</h3>
+    </div>
+    <div style="margin-top: 160px; margin-left: -40px; ">
+        <h1>Bienvenido<br> a Yapern´t</h1>
+    </div>
+    <div class="containerGreeticon">
+        <img src={{greetIconUrl}} class="icons"> <br><br><br>
+        <h2 style="font-family: Inter; ">
+            Estas en la seccion Crear Publicacion <br>
+            Aqui puedes publicar los objetos perdidos que hayas encontrado
+        </h2>
+    </div>
+  </div>
+  <div class="containerPost">
+    <div class="postContainer">
+      <h1 style="margin-top: 10px;">crear Publicacion</h1>
+      <div class="inputsDatas">
+        <img src={{addImage}} class="imagePost">
+
+        <button class="buttonImage">
+          <img src={{add}} class="imageIcon">
+          <div class="text">
+            Subir Foto
+          </div>
+        </button>
+        <br><br>
+        <button class="buttonImage">
+          <img src={{cam}} class="imageIcon">
+          <div class="text">
+            Tomar Foto
+          </div>
+        </button>
+      </div>
+      <div class="datas">
+        <label>Descripción:</label>
+        <br>
+        <input type="text">
+        <br>
+        <label>Lugar donde se encontro:</label>
+        <br>
+        <input type="text">
+        <br>
+        <label>Correo de contacto</label>
+        <br>
+        <input type="text">
+        <br>
+        <label>Celular de contacto</label>
+        <br>
+        <input type="text">
+        <br>
+        <button class="publicar">
+          Publicar
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

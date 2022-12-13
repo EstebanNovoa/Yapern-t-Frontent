@@ -1,0 +1,43 @@
+.misPublicaciones{
+  height: 100%;
+  width: 100%;
+  margin-top: 110px;
+  background: linear-gradient(292.65deg, #F8C84C -3.92%, #343434 107.84%);
+}
+
+body{
+  background: linear-gradient(292.65deg, #F8C84C -3.92%, #343434 107.84%);
+}
+
+h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 4%;
+  color: rgb(255, 255, 255);
+}
+
+.searchBarContainer{
+  width: 40%;
+  height: 40px;
+  background: transparent;
+  border-radius: 12px;
+  margin: auto;
+  font-family: 'Inter', sans-serif;
+  margin-top: -5%;
+  margin-left: 40%;
+  margin-bottom: 10%;
+}
+
+.searchBar{
+
+  width: 80%;
+  height: 100%;
+  background: white;
+  border-radius: 12px;
+  margin: auto;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}

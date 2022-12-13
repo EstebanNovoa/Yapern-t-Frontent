@@ -1,8 +1,8 @@
 <div class="containerNavBar">
-        <button class="containerIcons"><img src={{homeIconURL}}  alt="homeIcon" class="icons"></button>
+        <button class="containerIcons" routerLink="/Home"><img src={{homeIconURL}}  alt="homeIcon" class="icons"></button>
         <app-button-nav-bar routerLink="/Home" routerLinkActive="active" [buttonText]= "menuOptions[0]"></app-button-nav-bar>
-        <app-button-nav-bar [buttonText]= "menuOptions[1]"></app-button-nav-bar>
-        <app-button-nav-bar [buttonText]= "menuOptions[2]"></app-button-nav-bar>
+        <app-button-nav-bar routerLink="/mis-posts" routerLinkActive="active" [buttonText]= "menuOptions[1]"></app-button-nav-bar>
+        <app-button-nav-bar routerLink="/create-post" routerLinkActive="active" [buttonText]= "menuOptions[2]"></app-button-nav-bar>
         <app-button-nav-bar routerLink="/perfil" routerLinkActive="active" [buttonText]= "menuOptions[3]"></app-button-nav-bar>
         <button routerLink="/" routerLinkActive="active" class="containerIcons"><img src={{backIconURL}}  alt="homeIcon" class="icons"></button>
 </div>

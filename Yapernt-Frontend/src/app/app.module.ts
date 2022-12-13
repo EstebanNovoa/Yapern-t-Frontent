@@ -10,6 +10,8 @@ import { PostContainerComponent } from './Components/Common/post-container/post-
 import { LoginComponent } from './pages/user/login/login.component';
 import { RegiterComponent } from './pages/user/regiter/regiter.component';
 import { UserProfileComponent } from './pages/user/user-profile/user-profile.component';
+import { CreatePostComponent } from './pages/user/create-post/create-post.component';
+import { MisPostsComponent } from './pages/user/mis-posts/mis-posts.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { UserProfileComponent } from './pages/user/user-profile/user-profile.com
     PostContainerComponent,
     LoginComponent,
     RegiterComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    CreatePostComponent,
+    MisPostsComponent
   ],
   imports: [
     BrowserModule,

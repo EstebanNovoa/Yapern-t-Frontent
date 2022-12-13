@@ -4,12 +4,16 @@ import { LoginComponent } from './pages/user/login/login.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { UserHomeComponent } from './pages/user/user-home/user-home.component';
+import { CreatePostComponent } from './pages/user/create-post/create-post.component';
+import { MisPostsComponent } from './pages/user/mis-posts/mis-posts.component';
 
 const routes: Routes = [
   {path:"",component:LoginComponent},
   {path:"registro",component:RegiterComponent},
   {path:"Home",component:UserHomeComponent},
-  {path:"perfil",component: UserProfileComponent}
+  {path:"perfil",component: UserProfileComponent},
+  {path:"create-post",component: CreatePostComponent},
+  {path:"mis-posts",component: MisPostsComponent}
 ];
 
 @NgModule({
